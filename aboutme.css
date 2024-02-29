@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.main11{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width:1400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0 150px;
+    align-items: center;
+    border-radius: 45px;
+    align-content: center;
+    padding: 30px;
+    
+}
+/* log - editing  */
+.left img {
+    width: 50px; 
+    transition: all .15s;
+    border-radius: 5px;
+}
+.left img:hover {
+    width: 80px;
+    box-shadow: 0 0 20px;
+    border-radius: 15px;
+}
+.left p {
+    text-align: justify;
+}
+
+.right img {
+    width: 50px; 
+    transition: all .15s;
+    border-radius: 5px;
+}
+.right img:hover {
+    width: 80px;
+    box-shadow: 0 0 20px;
+    border-radius: 15px;
+}
+.right p {
+    text-align: justify;
+}
+.right {
+    margin-top: 15px ;
+}
+/* ------------------------------ */
+@media(max-width:1425px){
+    .main11{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width:800px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0 150px;
+    align-items: center;
+    border-radius: 45px;
+    align-content: center;
+    padding: 30px;
+    font-size: 20px;
+    }
+}
+@media(max-width:800px){
+    .main11{
+        display: flex;
+    justify-content: coloum;
+    margin-top: 25px;
+    width:400px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0 150px;
+    align-items: center;
+    border-radius: 45px;
+    align-content: center;
+    padding: 30px;
+    font-size: 15px;
+    }
+}
+/* ----------------------------------- */
+.right1{
+    margin-top: 20px;
+    width: 250px;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    overflow-x: scroll;
+    border-radius: 5px;
+}
+.right1 div{
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box1{
+    background-color: brown;
+}
+.box2{
+    background-color: black;
+}
+.box3{
+    background-color: brown;
+}
+.box4{
+    background-color: black;
+}
+.box5{
+    background-color: brown;
+}
